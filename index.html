@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика с функциями и счётчиками</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Счётчик кликов</h2>
+    <button id="clickButton">Нажми меня</button>
+    <p>Количество нажатий: <span id="clickCount">0</span></p>
+    <p id="message"></p>
+
+    <h2>Таймер с обратным отсчётом</h2>
+    <p>Осталось времени: <span id="countdownTimer">10</span></p>
+    <button id="resetCountdown">Сбросить таймер</button>
+
+    <h2>Таймер с кнопками</h2>
+    <p>Таймер: <span id="runningTimer">0</span></p>
+    <button id="startButton">Старт</button>
+    <button id="stopButton">Стоп</button>
+    <button id="resetButton">Сброс</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
